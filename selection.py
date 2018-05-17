@@ -1,6 +1,6 @@
-def selection(list):
+def selectedion(list):
     """
-        This function sorts a list using the selection sort algorithm
+        This function sorts a list using the selectedion sort algorithm
 
     """
     #Used to get just the needed slice of the list on each iteration
@@ -20,5 +20,5 @@ def selection(list):
 
 if __name__=='__main__':
     a = [3,2,1]
-    selection(a)
+    selectedion(a)
     print(a)
