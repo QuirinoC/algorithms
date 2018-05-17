@@ -1,6 +1,6 @@
 import unittest
 # Just import the sort to test as sort
-from insertion import insertion as sort
+from selection import selection as sort
 from random import randint, seed
 class bubble(unittest.TestCase):
 
