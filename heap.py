@@ -96,7 +96,7 @@ if __name__ == '__main__':
 
     '''Testing'''
     #Creates a 100 random lists
-    lists = [[randint(0,100) for i in range(11)] for i in range(10)]
+    lists = [[randint(0,100) for i in range(11)] for i in range(100)]
     are_heap = []
     for list in lists:
       #Create heap
